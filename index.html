@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câmbio Monetário</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="cambio">
+        <h1>Câmbio Monetário</h1>
+        <input id="cambioInput" type="number" placeholder="Digite o valor" />
+
+        <label for="moedaTipoInicial">Moeda Inicial:</label>
+        <select id="moedaTipoInicial">
+            <option value="BRL">BRL</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+        </select>
+
+        <label for="moedaTipoFinal">Moeda Final:</label>
+        <select id="moedaTipoFinal">
+            <option value="BRL">BRL</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="GBP">GBP</option>
+        </select>
+
+        <button id="btnCambio">Converter</button>
+        <div id="result1"></div>
+    </div>
+
+    <div class="filme">
+        <h3>Buscador de filme</h3>
+        <input id="filmeNome" type="text" placeholder="Insira o nome do Filme">
+        <button id="btnFilme">Buscar</button>
+        <div id="result2"></div>
+
+    </div>
+
+    <div class="tempo">
+        <h3>Buscador de Previsão do Tempo</h3>
+        <input id="cidade" type="text" placeholder="Insira o nome da Cidade" />
+        <button id="btncidade">Buscar</button>
+        <div id="result3"></div>
+    </div>
+    </body>
+</html>
